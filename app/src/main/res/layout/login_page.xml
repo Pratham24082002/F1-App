@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_back1"
     tools:context=".LoginPage">
 
     <TextView
@@ -12,59 +13,94 @@
         android:layout_height="49dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="123dp"
-        android:layout_marginBottom="589dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="631dp"
+        android:background="#E10600"
         android:text="Login"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="25dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
+        android:id="@+id/Loginemail"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="459dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="497dp"
         android:ems="10"
         android:hint="abc@gmail.com"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="518dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="560dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Email" />
+        android:text="Email"
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="107dp"
-        android:layout_marginBottom="393dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="437dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Password" />
+        android:text="Password"
+        android:textColor="@color/white" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
+        android:id="@+id/Loginpwd"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="106dp"
-        android:layout_marginBottom="331dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="377dp"
         android:ems="10"
         android:hint="Enter Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:outlineProvider="paddedBounds"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/Loginbtn"
+        android:layout_width="306dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="228dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/loginbtn1" />
+
+    <TextView
+        android:id="@+id/registerlink"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="86dp"
+        android:text="Didn’t Registered yet?"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 </RelativeLayout>
