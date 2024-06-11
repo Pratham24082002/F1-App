@@ -7,6 +7,16 @@
     android:background="@drawable/home1"
     tools:context=".Home">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/red"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+        />
+
     <TextView
         android:layout_width="179dp"
         android:layout_height="74dp"
@@ -26,14 +36,14 @@
 
     <ImageButton
         android:id="@+id/carbtn"
-        android:layout_width="169dp"
-        android:layout_height="101dp"
+        android:layout_width="189dp"
+        android:layout_height="99dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="121dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        android:src="@drawable/transp_btn" />
+        android:src="@drawable/homebtn1" />
 
 </RelativeLayout>

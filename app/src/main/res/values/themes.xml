@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.F1" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
     </style>
 
     <style name="Theme.F1" parent="Base.Theme.F1" />

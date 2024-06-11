@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_drivers"
+        android:icon="@drawable/driver"
+        android:title="Drivers" />
+    <item
+        android:id="@+id/nav_constructors"
+        android:icon="@drawable/construtcor"
+        android:title="Constructors" />
+    <item
+        android:id="@+id/nav_races"
+        android:icon="@drawable/races1"
+        android:title="Races" />
+</menu>

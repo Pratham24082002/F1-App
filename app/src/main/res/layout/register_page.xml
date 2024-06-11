@@ -110,5 +110,5 @@
         android:background="@android:color/transparent"
         android:rotation="2"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/loginbtn1" />
+        app:srcCompat="@drawable/homebtn1" />
 </RelativeLayout>
